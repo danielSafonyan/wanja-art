@@ -1,3 +1,77 @@
-h1 {
-    background-color: red;
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
 }
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px
+    }
+
+.navigation .logo {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.navigation .logo img {
+    height: 75px;
+    max-width: 100%;
+}
+
+.navigation .logo span {
+    font-weight: 700;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.navigation ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.navigation ul li {
+    list-style-type: none;
+    }   
+
+.navigation ul a {
+    text-decoration: none;
+    padding: 0 15px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    opacity: 1;
+    transition-property: color;
+    transition-timing-function: ease;
+    }   
+
+
+.navigation ul a:visited {
+    color: black;
+    }  
+
+.navigation ul a:hover {
+    color:grey;
+    opacity: 0.9;
+    transition-duration: 0.2s;
+    }   
+
+.cart {
+    border: 1px solid black;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart-text {
+    font-size: 14px;
+}
+
